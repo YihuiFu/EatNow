@@ -1,0 +1,466 @@
+@charset "utf-8";
+/* CSS Document */
+div.Nav {
+	margin:0px 0px 25px 0px;
+	width: 100%;
+	float: left;
+	border-bottom: 2px solid #81a039;
+}
+div.Nav ul li {
+	float: left;
+}
+li {
+	list-style-type: none;
+}
+div.Nav li.single a {
+	font-weight: bolder;
+	color: black;
+}
+div.Nav a:hover {
+	background-color: #E7E8E9;
+}
+div.Nav a {
+	font-size: 120%;
+	float: left;
+	padding: 5px 30px;
+	text-align: center;
+	text-decoration: none;
+}
+ul {
+	padding: 0;
+}
+div.Nav ul li {
+	float: left;
+}
+.selected {
+	background-color: #81a039;
+}
+div.user_info, div.info_nav {
+	float: left;
+	width: 100%;
+	margin-bottom: 10px;
+	border-right: 1px solid #E7E8E9;
+}
+div.user_info ul li {
+	float: left;
+	width: 100%;
+}
+div.user_info ul li:first-child {
+	margin-bottom: 10px;
+}
+div.user_info ul li a img {
+	margin-right: 20px;
+	border: 1px solid #E7E8E9;
+	box-shadow: 0px 1px 2px #D6D6D6;
+	width: 80px;
+}
+div.user_info ul li h3 {
+	margin: 4px 0px 5px 0px;
+	color: #15ADEF;
+}
+div.user_info ul li a {
+	float: left;
+	padding: 3px 0px;
+}
+div.user_info ul li a.point_name {
+	font-size: 105%;
+	color: black;
+}
+div.user_info ul li a.point {
+	margin-left: 10px;
+	font-size: 105%;
+}
+div.user_info ul li a.value {
+	color: black;
+}
+div.info_nav {
+	margin-top: 30px;
+	border-top: 2px dotted #E7E8E9;
+}
+div.info_nav ul li {
+	padding: 10px;
+}
+div.info_nav ul li a:hover {
+	text-decoration: underline;
+}
+.info_nav ul li span {
+	display: block;
+	height: 30px;
+	width: 30px;
+	float: left;
+	margin-right: 10px;
+	background-color: #696;
+}
+.info_l {
+	float: left;
+}
+.info_r {
+	float: right;
+	width: 680px;
+	position: relative;
+}
+.info_r h2 {
+	margin-top: 20px;
+	border-bottom: 1px dotted #CCC;
+	height: 45px;
+}
+.text_box {
+	margin: 5px 0px;
+	padding: 7px 12px;
+	width: 200px;
+	font-family: "Microsoft YaHei", "幼圆", "黑体", "Arial";
+	list-style: none;
+	font-size: 12px;
+	background-color: white;
+	border: 1px solid #CBCBCB;
+}
+.mul_text_box {
+	width: 550px;
+	height: 120px;
+}
+.button {
+	float: left;
+	text-align: center;
+	min-width: 100px;
+	margin: 5px 0px;
+	padding: 7px 15px;
+	color: black;
+	background-color: #81a039;
+	font-family: "Microsoft YaHei", "幼圆", "黑体", "Arial";
+	border: 0px;
+}
+.button:hover, .btnhover {
+	cursor: pointer;
+	background: #d5bf3a;
+	color: white;
+}
+/*----------------------------------------------尾部链接的css-----------------------------------------------------*/
+
+/*-------------------------------------找回密码的  start---------------------------*/
+div.retrieve_password_m1 {
+	padding-left: 20px;
+}
+div.retrieve_password_m2 {
+	width: 100%;
+	padding-top: 20px;
+	border-top: 1px solid #E7E8E9;
+	border-bottom: 1px solid #E7E8E9;
+	padding-left: 20px;
+}
+.retrieve_password_mm {
+	float: left;
+}
+.warn {
+	float: right;
+	border-left: 1px solid #E7E8E9;
+	padding-top: 20px;
+	padding-left: 70px;
+	background: url(images/contact.png) no-repeat left center;
+}
+/*-------------------------------------找回密码的 end---------------------------*/
+
+
+
+
+
+
+/*-------------------------------------常见问题的  start---------------------------*/
+.problem {
+	padding-left: 20px;
+}
+.problem dl dt {
+	font-size: 22px;
+	color: #81a039;
+	line-height: 80px;
+}
+.problem dl dd {
+	line-height: 25px;
+	font-size: 14px;
+}
+/*-------------------------------------常见问题的  end---------------------------*/
+
+
+
+
+/*-------------------------------------注销用户和邀请好友的  start---------------------------*/
+p.warning {
+	color: #F00;
+	padding-left: 20px;
+}
+.link_box {
+	min-width: 500px;
+}
+/*-------------------------------------注销用户和邀请好友的  end---------------------------*/
+
+
+
+
+
+/*-------------------------------------设置手机号的,设置头像的  start---------------------------*/
+
+a.special {
+	color: #0F0;
+	font-weight: bold;
+	text-decoration: underline;
+}
+.default_img_box {
+	width: 480px;
+	float: left;
+}
+.default_img_box ul li {
+	float: left;
+	width: 105px;
+	height: 105px;
+	margin:5px;
+	background-color:#09C;
+}
+.default_img_box ul li a {
+	float: left;
+	background-color:#0C6;
+	width: 100px;
+	height: 100px;
+}
+.default_img_box ul li a:hover {
+box-shadow: 2px 2px 8px #404040;
+}
+.default_img_box input
+{
+	margin-left:5px;
+	margin-top:20px;
+}
+.current_icon
+{
+	float:right;
+}
+.current_icon img
+{
+	height:105px;
+	width:100px;
+}
+.current_icon p
+{
+	margin-top:20px;
+	margin-left:20px;
+}
+.current_icon input
+{
+	width:100px;
+	}
+/*-------------------------------------设置手机号的  end---------------------------*/
+
+
+
+/*------------------------business_management的 start------------------------*/
+.business_profile
+{
+	text-indent:3px;
+	width:680px;
+}
+.menu_description td
+{
+	height:auto;
+	min-width:50px;
+	border:1px solid #E7E8E9;
+	padding:10px;
+}
+
+
+/*------------------------business_management的 end------------------------*/
+
+
+
+/*------------------------------------关于我们的 开始-----------------------*/
+.collom{
+	float:left;
+	width:305px;
+	margin-right:20px;
+}
+
+.image_box {
+	float: left;
+	margin: 3px;
+	width: 305px;
+	height: 155px;
+	background-color: #09F;
+}
+.image_box a {
+	background-color: #0FF;
+	float: left;
+	width: 300px;
+	height: 150px;
+}
+.image_box a:hover {
+	box-shadow: 2px 2px 6px #404040;
+}
+.summary{
+	margin-bottom:100px;
+	
+}
+.summary a{
+	color:#d5bf3a;
+	font-size:18px;
+	display:block;
+	padding:10px;
+}
+.summary a:hover{
+	color:#81a039;
+	text-decoration:none;
+}
+.summary p{
+	line-height:24px;
+	margin-bottom:10px;
+}
+.textbox {
+margin: 5px 0px;
+padding: 7px 12px;
+width: 200px;
+font-family: "Microsoft YaHei","幼圆","黑体","Arial";
+list-style: none;
+font-size: 12px;
+background-color: white;
+border: 1px solid #CBCBCB;
+}
+.form_setting{
+padding-left:20px;
+}
+.form_setting span{
+	width:180px;
+	float:left;
+	height:40px;
+	line-height:40px;
+	color:#81a039;
+}
+.form_setting li{
+	margin-bottom:10px;
+}
+textarea{
+	width:420px;
+	height:180px;
+	margin-top:10px;
+}
+.btn_special{
+  margin-left:180px;
+}
+
+.jobtable{
+width: 600px;
+margin: 20px 0px;
+border-collapse: collapse;
+}
+.jobtable tr.title td{
+	height:30px;
+}
+.jobtable td {
+height: 100px;
+border: 1px solid #81a039;
+vertical-align: top;
+}
+/*------------------------------------关于我们的 end-----------------------*/
+
+
+
+
+/*------------------------------------store_menu1的 start-----------------------*/
+.content_l {
+	float: left;
+	width: 760px;
+	min-height: 300px;
+	margin-top: 20px;
+	height: auto;
+	border-right: 1px solid #CCC;
+}
+.content_r {
+	float: right;
+	width: 200px;
+	margin-top: 20px;
+	min-height: 300px;
+	height: auto;
+	background: #FFF;
+}
+.detail_head {
+	height:50px;
+	font-size: 44px;
+	color: #81a039;
+	padding: 0px 10px;
+	font-weight: bold;
+}
+.category
+{
+	margin-top:20px;
+}
+h3.feature {
+	font-size: 20px;
+	color: #E98213;
+	font-weight: bold;
+	padding-left: 30px;
+	clear: both;
+	paddin-top: 40px;
+}
+.menus_box {
+	width: 235px;
+	height: 160px;
+	display: block;
+	background-color: #CCC;
+	float: left;
+	margin: 7px;
+}
+.menus_show {
+	display: block;
+	width: 235px;
+	height: 130px;
+	background-color: #00F;
+}
+.menu_description {
+	font-size: 16px;
+}
+.tel span
+{
+	float:left;
+	display:block;
+	height:30px;
+	width:30px;
+	background-color:#FF0;
+	margin-right:5px;
+}
+.tel h3
+{
+	font-size:17px;
+	font-weight:bold;
+}
+.content_r p
+{
+	margin-left:20px;
+}
+/*------------------------------------store_menu1的 end-----------------------*/
+
+
+
+
+span.my_profile
+{
+	background:url(images/my_profile.png) no-repeat;
+}
+span.set_icon
+{
+	background:url(images/set_icon.png) no-repeat;
+}
+span.set_phone
+{
+	background:url(images/set_phone.png) no-repeat;
+}
+span.set_password
+{
+	background:url(images/set_password.png) no-repeat;
+}
+span.inviting_friends
+{
+	background:url(images/inviting_friends.png) no-repeat;
+}
+span.transfer_points
+{
+	background:url(images/transfer_points.png) no-repeat;
+}
+span.cancellation_user
+{
+	background:url(images/cancellation_user.png) no-repeat;
+}
